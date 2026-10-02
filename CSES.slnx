@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CSES.vcxproj" Id="82cc7a2a-e9bb-4154-9a9b-f5c443d91252" />
+</Solution>
