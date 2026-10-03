@@ -2,71 +2,47 @@
 #include <algorithm>
 #include <iostream>
 
+using namespace std;
 using std::vector;
 
-class FourSum
+void solve()
 {
-public:
-	int size = 0;
-	int target = 0;
-	vector<int>& arr;
-	vector<int> result = {};
+	int size, target;
+	std::cin >> size >> target;
+	vector<int> arr(size);
+	for (int& value : arr)
+	{
+		std::cin >> value;
+	}
 	vector<vector<int>> pairs = {};
 
-	FourSum(int size_, int target_, vector<int>& arr_)
-		: size(size_), target(target_), arr(arr_)
+	for (int i = 0; i < size; i++)
 	{
-		Solve();
-		if (result.empty())
+		for (int j = i + 1; j < size; j++)
 		{
-			std::cout << "IMPOSSIBLE" << std::endl;
-		}
-		else
-		{
-			for (int i = 0; i < result.size(); i++)
-			{
-				std::cout << result[i] + 1 << (i == result.size() - 1 ? "" : " ");
-			}
+			pairs.push_back({ arr[i] + arr[j], i , j });
 		}
 	}
+	std::sort(pairs.begin(), pairs.end());
 
-	void Solve()
+	int left = 0;
+	int right = pairs.size() - 1;
+	while (left < right)
 	{
-		for (int i = 0; i < size; i++)
+		int crr_sum = pairs[left][0] + pairs[right][0];
+		if (crr_sum == target)
 		{
-			for (int j = i + 1; j < size; j++)
+			int p = pairs[left][1], q = pairs[left][2];
+			int r = pairs[right][1], s = pairs[right][2];
+			if (p != r && q != s && p != s && q != r)
 			{
-				pairs.push_back({ arr[i] + arr[j], i , j });
+				cout << (p + 1) << " "
+					<< (q + 1) << " "
+					<< (r + 1) << " "
+					<< (s + 1) << "\n";
+				return;
 			}
-		}
-		std::sort(pairs.begin(), pairs.end());
-
-		int left = 0;
-		int right = pairs.size() - 1;
-		while (left < right)
-		{
-			int crr_sum = pairs[left][0] + pairs[right][0];
-			if (crr_sum == target)
-			{
-				int p = pairs[left][1], q = pairs[left][2];
-				int r = pairs[right][1], s = pairs[right][2];
-				if (p != r && q != s && p != s && q != r)
-				{
-					result = { p, q, r, s };
-					return;
-				}
-				result.erase(
-					std::unique(result.begin(), result.end()), result.end());
-				if(pairs[left + 1][0] == pairs[left][0])
-				{
-					left++;
-				}
-				else
-				{
-					right--;
-				}
-			}
-			else if (crr_sum < target)
+			if(pairs[left + 1][0] == pairs[left][0])
 			{
 				left++;
 			}
@@ -75,15 +51,28 @@ public:
 				right--;
 			}
 		}
-		return;
-	};
-};
+		else if (crr_sum < target)
+		{
+			left++;
+		}
+		else
+		{
+			right--;
+		}
+	}
+	std::cout << "IMPOSSIBLE\n";
+	return;
+}
 
-//int main() {
-//	std::vector<int> nums = { 1, 0, -1, 0, -2, 2 };
-//	int target = 0;
-//
-//	FourSum solver(nums.size(), target, nums);
-//
-//	return 0;
-//}
+int main()
+{
+#ifdef LOCAL_TESTING
+	return TestNamed("FourSum", solve, "tests/FourSum") ? 0 : 1;
+#else
+	std::ios_base::sync_with_stdio(false);
+	std::cin.tie(nullptr);
+
+	solve();
+	return 0;
+#endif
+}
