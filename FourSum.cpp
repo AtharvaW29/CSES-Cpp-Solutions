@@ -64,15 +64,15 @@ void solve()
 	return;
 }
 
-int main()
-{
-#ifdef LOCAL_TESTING
-	return TestNamed("FourSum", solve, "tests/FourSum") ? 0 : 1;
-#else
-	std::ios_base::sync_with_stdio(false);
-	std::cin.tie(nullptr);
-
-	solve();
-	return 0;
-#endif
-}
+//int main()
+//{
+//#ifdef LOCAL_TESTING
+//	return TestNamed("FourSum", solve, "tests/FourSum") ? 0 : 1;
+//#else
+//	std::ios_base::sync_with_stdio(false);
+//	std::cin.tie(nullptr);
+//
+//	solve();
+//	return 0;
+//#endif
+//}

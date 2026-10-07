@@ -1,4 +1,5 @@
 #pragma once
+#define LOCAL_TESTING
 
 #include <algorithm>
 #include <array>
@@ -94,3 +95,14 @@ namespace cses_test
         std::istringstream input(inputText);
         int size = 0;
         long long target = 0;
+    }
+
+    inline bool ValidateDistintNumbers(
+        const std::string& inputText,
+        const std::string& expectedText,
+        const std::string& actualText,
+        std::string& reason)
+    {
+        std::istringstream input(inputText);
+        int n = 0;
+    }

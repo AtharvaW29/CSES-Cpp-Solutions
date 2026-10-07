@@ -21,6 +21,12 @@
     <ClCompile Include="FourSum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DistinctNumbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SumOfThreeValues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestRunner.h">

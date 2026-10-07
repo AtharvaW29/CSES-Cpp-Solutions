@@ -140,7 +140,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CSES.cpp" />
+    <ClCompile Include="DistinctNumbers.cpp" />
     <ClCompile Include="FourSum.cpp" />
+    <ClCompile Include="SumOfThreeValues.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestRunner.h" />
