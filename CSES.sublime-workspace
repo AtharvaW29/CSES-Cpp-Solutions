@@ -1,0 +1,287 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"insert"
+			],
+			[
+				"po",
+				"old_pos_b"
+			],
+			[
+				"old",
+				"old_val_b"
+			],
+			[
+				"pos",
+				"pos_of_val"
+			],
+			[
+				"ol",
+				"old_pos_a"
+			],
+			[
+				"opea",
+				"operations"
+			],
+			[
+				"con",
+				"continue"
+			],
+			[
+				"coin",
+				"coin_set"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"fi",
+				"first"
+			],
+			[
+				"set",
+				"multiset"
+			],
+			[
+				"ma",
+				"max_end_time"
+			],
+			[
+				"cr",
+				"crr_overlap"
+			],
+			[
+				"crr",
+				"crr_overlap"
+			],
+			[
+				"se",
+				"insert"
+			],
+			[
+				"inter",
+				"interval"
+			],
+			[
+				"cus",
+				"customers"
+			],
+			[
+				"ticket",
+				"ticket_"
+			],
+			[
+				"apa",
+				"apartments"
+			],
+			[
+				"a",
+				"apartments"
+			],
+			[
+				"ap",
+				"apartments"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Arithmetic"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/A/Academics/CSES/output.txt",
+		"/A/Academics/CSES/TrafficLights.cpp",
+		"/A/Academics/CSES/input.txt",
+		"/A/Academics/CSES/Towers.cpp",
+		"/A/Academics/CSES/Playlist.cpp",
+		"/A/Academics/CSES/CollectingNumbersII.cpp",
+		"/A/Academics/CSES/CollectinNumbers.cpp",
+		"/A/Academics/CSES/MissingCoinSum.cpp",
+		"/A/Academics/CSES/DiceCombinations.cpp",
+		"/A/Academics/CSES/StickLengths.cpp",
+		"/A/Academics/CSES/MovieFestival.cpp",
+		"/A/Academics/CSES/SumofTwoValues.cpp",
+		"/C/Users/athar/AppData/Local/Temp/Rar$DIa12924.4981/5.out",
+		"/C/Users/athar/AppData/Local/Temp/Rar$DIa12924.3607/5.in",
+		"/C/Users/athar/AppData/Local/Temp/Rar$DIa36856.16984/4.out",
+		"/C/Users/athar/AppData/Local/Temp/Rar$DIa23704.21790/3.out",
+		"/C/Users/athar/AppData/Local/Temp/Rar$DIa23704.19122/3.in",
+		"/C/Users/athar/AppData/Local/Temp/Rar$DIa23704.19545/3.out",
+		"/C/Users/athar/AppData/Local/Temp/Rar$DIa34220.29249/4.out",
+		"/C/Users/athar/AppData/Local/Temp/Rar$DIa34220.25892/4.in",
+		"/A/Academics/CSES/RestaurantCustomers.cpp",
+		"/C/Users/athar/AppData/Roaming/Sublime Text/Packages/User/cpp_boilerplate_cses.sublime-snippet",
+		"/A/Academics/CSES/ConcertTickets.cpp",
+		"/A/Academics/CSES/ConcertTickets",
+		"/A/Academics/CSES/FerrisWheel.cpp",
+		"/A/Academics/CSES/Apartments.cpp",
+		"/A/Academics/CSES/FourSum.cpp",
+		"/A/Academics/CSES/.gitignore",
+		"/A/Academics/CSES/SubArraySumI.cpp",
+		"/A/Academics/CSES/NearestSmallerValues.cpp"
+	],
+	"find":
+	{
+		"height": 47.3333333333
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 47.3333333333
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "CSES.sublime-project",
+	"replace":
+	{
+		"height": 90.6666666667
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -142,6 +142,9 @@
     <ClCompile Include="CSES.cpp" />
     <ClCompile Include="DistinctNumbers.cpp" />
     <ClCompile Include="FourSum.cpp" />
+    <ClCompile Include="MaximumSubArraySum.cpp" />
+    <ClCompile Include="NearestSmallerValues.cpp" />
+    <ClCompile Include="SubArraySumI.cpp" />
     <ClCompile Include="SumOfThreeValues.cpp" />
   </ItemGroup>
   <ItemGroup>
